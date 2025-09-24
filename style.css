@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8B1010; /* Warna latar belakang */
+    color: #D5B2B2; /* Warna teks */
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 30%;
+    background-color: #FFEDED; /* Warna untuk sidebar */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section {
+    width: 70%;
+    padding: 20px;
+}
+
+.job-listing {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-card {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #D5B2B2; /* Warna tombol */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}

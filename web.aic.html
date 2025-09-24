@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desain Web</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">CariPekerjaan</a></li>
+        <li><a href="#">IkutiPelatihan</a></li>
+        <li><a href="#">TentangKami</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="gambar utama.jpeg" alt="Gambar Utama">
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Cari...">
+      <button onclick="searchJob()">Cari</button>
+    </div>
+  </section>
+
+  <!-- Sub Section (2 Gambar) -->
+  <section class="sub-section">
+    <div class="card">
+      <img src="gambar1.jpg" alt="Gambar 1">
+    </div>
+    <div class="card">
+      <img src="gambar2.jpg" alt="Gambar 2">
+    </div>
+  </section>
+
+  <!-- Cari Pekerjaan -->
+  <section class="jobs">
+    <div class="jobs-header">
+      <h2>Cari Pekerjaan</h2>
+      <div class="search-box2">
+        <input type="text" placeholder="Cari pekerjaan...">
+        <button>🔍</button>
+      </div>
+    </div>
+
+    <div class="jobs-content">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h3>Kategori Pekerjaan</h3>
+        <ul>
+          <li><input type="checkbox"> Desain</li>
+          <li><input type="checkbox"> Teknologi</li>
+          <li><input type="checkbox"> Manajemen</li>
+          <li><input type="checkbox"> Marketing</li>
+        </ul>
+
+        <h3>Minat</h3>
+        <ul>
+          <li><input type="checkbox"> Teknologi</li>
+          <li><input type="checkbox"> Lingkungan</li>
+          <li><input type="checkbox"> Kesehatan</li>
+        </ul>
+      </aside>
+
+      <!-- Grid Lowongan -->
+      <div class="jobs-grid">
+        <div class="job-card">Desain UI/UX<br><small>By Vanesha</small></div>
+        <div class="job-card">Desain UI/UX<br><small>By Vanesha</small></div>
+        <div class="job-card">Desain UI/UX<br><small>By Vanesha</small></div>
+        <div class="job-card">Desain UI/UX<br><small>By Vanesha</small></div>
+        <div class="job-card">Desain UI/UX<br><small>By Vanesha</small></div>
+        <div class="job-card">Desain UI/UX<br><small>By Vanesha</small></div>
+      </div>
+    </div>
+  </section>
+<script src="index.js"></script>
+</body>
+</html>

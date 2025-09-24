@@ -1,0 +1,129 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: #222;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 20px;
+      font-weight: 500;
+      background: #fff;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    nav a:hover {
+      color: #800000;
+    }
+
+    /* About Section */
+    .about {
+      background: #800000;
+      color: #fff;
+      padding: 40px;
+      line-height: 1.6;
+    }
+
+    .about h2 {
+      font-size: 26px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .about .visi-misi {
+      margin-top: 30px;
+      
+    }
+
+    .about .visi-misi h3 {
+      font-size: center;
+      margin-bottom: 15px;
+    }
+
+    .visi-misi-content {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .visi {
+      flex: 25;
+      min-width: 250px;
+    }
+
+    .misi {
+      flex: 26;
+      min-width: 250px;
+    }
+
+    .misi ol {
+      margin-left: 20px;
+      line-height: 1.8;
+    }
+
+    /* Team Section */
+    .team {
+      background: #eee;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .team h3 {
+      margin-bottom: 30px;
+      font-size: 22px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .team-members {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .member {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: #fff;
+      border: 2px solid #ccc;
+    }
+
+    /* Stats Section */
+    .stats {
+      background: #800000;
+      color: #fff;
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      text-align: center;
+      margin: 10px 20px;
+    }
+
+    .stat h4 {
+      font-size: 26px;
+      font-weight: 600;
+    }
+
+    .stat p {
+      margin-top: 5px;
+      font-size: 16px;
+    }
