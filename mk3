@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Halaman 3</title>
+  <link href="stylessss.css" rel="stylesheet">
+  <style>
+   
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">CariPekerjaan</a>
+    <a href="#">IkutiPelatihan</a>
+    <a href="#">TentangKami</a>
+  </nav>
+
+  <!-- About Us Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      Kami adalah platform pencari kerja yang hadir untuk menghubungkan para pencari kerja dengan perusahaan terbaik di berbagai bidang. 
+      Dengan fitur pencarian lowongan yang mudah digunakan, informasi yang selalu diperbarui, serta dukungan pelatihan karier, 
+      kami berkomitmen membantu setiap individu menemukan pekerjaan yang sesuai dengan minat dan keahliannya.
+    </p>
+
+    <div class="visi-misi">
+      <h3>Visi & Misi</h3>
+      <div class="visi-misi-content">
+        <div class="visi">
+          <p>
+            Menjadi platform pencarian kerja terpercaya yang menghubungkan pencari kerja dengan perusahaan, 
+            serta mendorong terciptanya karier yang lebih baik dan masa depan yang sejahtera.
+          </p>
+        </div>
+        <div class="misi">
+          <ol>
+            <li>Mempermudah akses informasi lowongan kerja dengan menyediakan sistem pencarian yang cepat, tepat, dan sesuai kebutuhan.</li>
+            <li>Membangun jembatan antara pencari kerja dan perusahaan melalui fitur interaktif dan transparan.</li>
+            <li>Menyediakan layanan pengembangan diri seperti pelatihan dan tips karier agar pencari kerja lebih siap menghadapi dunia kerja.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team">
+    <h3>Meet Our Team</h3>
+    <div class="team-members">
+      <div class="member"></div>
+      <div class="member"></div>
+      <div class="member"></div>
+      <div class="member"></div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="stat">
+      <h4>10M+</h4>
+      <p>Job</p>
+    </div>
+    <div class="stat">
+      <h4>50k+</h4>
+      <p>Perusahaan</p>
+    </div>
+    <div class="stat">
+      <h4>10+</h4>
+      <p>User</p>
+    </div>
+  </section>
+
+</body>
+</html>
